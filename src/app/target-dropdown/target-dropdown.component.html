@@ -1,0 +1,117 @@
+<!-- Dropdown button for target languages -->
+<div class="target-langs">
+    <button class="target-dropbtn" id="target-dropbtn" (click)="onClickTarget()">ja</button>
+    <div class="target-dropdown" id="target-dropdown">
+        <ul>
+            <li><button id="ar" (click)="onArabic()">Arabic</button></li>
+            <li><button id="nl" (click)="onDutch()">Dutch</button></li>
+            <li><button id="en" (click)="onEnglish()">English</button></li>
+            <li><button id="fr" (click)="onFrench()">French</button></li>
+            <li><button id="ja" (click)="onJapn()">Japanese</button></li>
+            <li><button id="ko" (click)="onKorean()">Korean</button></li>
+            <li><button id="es" (click)="onSpanish()">Spanish</button></li>
+            <li><button id="af" (click)="onAf()">Afrikaans</button></li>
+            <li><button id="sq" (click)="onSq()">Albanian</button></li>
+            <li><button id="am" (click)="onAm()">Amharic</button></li>
+            <li><button id="hy" (click)="onHy()">Armenian</button></li>
+            <li><button id="az" (click)="onAz()">Azerbaijani</button></li>
+            <li><button id="ba" (click)="onBa()">Bashkir</button></li>
+            <li><button id="eu" (click)="onEu()">Basque</button></li>
+            <li><button id="be" (click)="onBe()">Belarusian</button></li>
+            <li><button id="bn" (click)="onBn()">Bengali</button></li>
+            <li><button id="bs" (click)="onBs()">Bosnian</button></li>
+            <li><button id="bg" (click)="onBg()">Bulgarian</button></li>
+            <li><button id="ca" (click)="onCa()">Catalan</button></li>
+            <li><button id="ceb" (click)="onCeb()">Cebuano</button></li>
+            <li><button id="ny" (click)="onNy()">Chichewa</button></li>
+            <!-- <li><button id="zh-cn" (click)="onZhCn()">Chinese Simplified</button></li>
+            <li><button id="zh-tw" (click)="onZhTw()">Chinese Traditional</button></li> -->
+            <li><button id="co" (click)="onCo()">Corsican</button></li>
+            <li><button id="hr" (click)="onHr()">Croatian</button></li>
+            <li><button id="cs" (click)="onCs()">Czech</button></li>
+            <li><button id="da" (click)="onDa()">Danish</button></li>
+            <li><button id="eo" (click)="onEo()">Esperanto</button></li>
+            <li><button id="et" (click)="onEt()">Estonian</button></li>
+            <li><button id="fi" (click)="onFi()">Finnish</button></li>
+            <li><button id="fy" (click)="onFy()">Frisian</button></li>
+            <li><button id="gl" (click)="onGl()">Galician</button></li>
+            <li><button id="ka" (click)="onKa()">Georgian</button></li>
+            <li><button id="de" (click)="onDe()">German</button></li>
+            <li><button id="el" (click)="onEl()">Greek</button></li>
+            <li><button id="gu" (click)="onGu()">Gujarati</button></li>
+            <li><button id="ht" (click)="onHt()">Haitian Creole</button></li>
+            <li><button id="ha" (click)="onHa()">Hausa</button></li>
+            <li><button id="haw" (click)="onHaw()">Hawaiian</button></li>
+            <li><button id="iw" (click)="onIw()">Hebrew</button></li>
+            <li><button id="mrj" (click)="onMrj()">Hill Mari</button></li>
+            <li><button id="hi" (click)="onHi()">Hindi</button></li>
+            <li><button id="hmn" (click)="onHmn()">Hmong</button></li>
+            <li><button id="hu" (click)="onHu()">Hungarian</button></li>
+            <li><button id="is" (click)="onIs()">Icelandic</button></li>
+            <li><button id="ig" (click)="onIg()">Igbo</button></li>
+            <li><button id="id" (click)="onId()">Indonesian</button></li>
+            <li><button id="ga" (click)="onGa()">Irish</button></li>
+            <li><button id="it" (click)="onIt()">Italian</button></li>
+            <li><button id="jw" (click)="onJw()">Javanese</button></li>
+            <li><button id="kn" (click)="onKn()">Kannada</button></li>
+            <li><button id="kk" (click)="onKk()">Kazakh</button></li>
+            <li><button id="km" (click)="onKm()">Khmer</button></li>
+            <li><button id="ku" (click)="onKu()">Kurdish (Kurmanji)</button></li>
+            <li><button id="ky" (click)="onKy()">Kyrgyz</button></li>
+            <li><button id="lo" (click)="onLo()">Lao</button></li>
+            <li><button id="la" (click)="onLa()">Latin</button></li>
+            <li><button id="lv" (click)="onLv()">Latvian</button></li>
+            <li><button id="lt" (click)="onLt()">Lithuanian</button></li>
+            <li><button id="lb" (click)="onLb()">Luxembourgish</button></li>
+            <li><button id="mk" (click)="onMk()">Macedonian</button></li>
+            <li><button id="mg" (click)="onMg()">Malagasy</button></li>
+            <li><button id="ms" (click)="onMs()">Malay</button></li>
+            <li><button id="ml" (click)="onMl()">Malayalam</button></li>
+            <li><button id="mt" (click)="onMt()">Maltese</button></li>
+            <li><button id="mi" (click)="onMi()">Maori</button></li>
+            <li><button id="mr" (click)="onMr()">Marathi</button></li>
+            <li><button id="mhr" (click)="onMhr()">Mari</button></li>
+            <li><button id="mn" (click)="onMn()">Mongolian</button></li>
+            <li><button id="ne" (click)="onNe()">Nepali</button></li>
+            <li><button id="no" (click)="onNo()">Norwegian</button></li>
+            <li><button id="ps" (click)="onPs()">Pashto</button></li>
+            <li><button id="pap" (click)="onPap()">Papiamento</button></li>
+            <li><button id="fa" (click)="onFa()">Persian</button></li>
+            <li><button id="pl" (click)="onPl()">Polish</button></li>
+            <li><button id="pt" (click)="onPt()">Portuguese</button></li>
+            <li><button id="pa" (click)="onPa()">Punjabi</button></li>
+            <li><button id="ro" (click)="onRo()">Romanian</button></li>
+            <li><button id="ru" (click)="onRu()">Russian</button></li>
+            <li><button id="sm" (click)="onSm()">Samoan</button></li>
+            <li><button id="gd" (click)="onGd()">Scots Gaelic</button></li>
+            <li><button id="sr" (click)="onSr()">Serbian</button></li>
+            <li><button id="st" (click)="onSt()">Sesotho</button></li>
+            <li><button id="sn" (click)="onSn()">Shona</button></li>
+            <li><button id="sd" (click)="onSd()">Sindhi</button></li>
+            <li><button id="si" (click)="onSi()">Sinhala</button></li>
+            <li><button id="sk" (click)="onSk()">Slovak</button></li>
+            <li><button id="sl" (click)="onSl()">Slovenian</button></li>
+            <li><button id="so" (click)="onSo()">Somali</button></li>
+            <li><button id="su" (click)="onSu()">Sundanese</button></li>
+            <li><button id="sw" (click)="onSw()">Swahili</button></li>
+            <li><button id="sv" (click)="onSv()">Swedish</button></li>
+            <li><button id="tl" (click)="onTl()">Filipino</button></li>
+            <li><button id="tg" (click)="onTg()">Tajik</button></li>
+            <li><button id="ta" (click)="onTa()">Tamil</button></li>
+            <li><button id="tt" (click)="onTt()">Tatar</button></li>
+            <li><button id="te" (click)="onTe()">Telugu</button></li>
+            <li><button id="th" (click)="onTh()">Thai</button></li>
+            <li><button id="tr" (click)="onTr()">Turkish</button></li>
+            <li><button id="udm" (click)="onUdm()">Udmurt</button></li>
+            <li><button id="uk" (click)="onUk()">Ukrainian</button></li>
+            <li><button id="ur" (click)="onUr()">Urdu</button></li>
+            <li><button id="uz" (click)="onUz()">Uzbek</button></li>
+            <li><button id="vi" (click)="onVi()">Vietnamese</button></li>
+            <li><button id="cy" (click)="onCy()">Welsh</button></li>
+            <li><button id="xh" (click)="onXh()">Xhosa</button></li>
+            <li><button id="yi" (click)="onYi()">Yiddish</button></li>
+            <li><button id="yo" (click)="onYo()">Yoruba</button></li>
+            <li><button id="zu" (click)="onZu()">Zulu</button></li>
+        </ul>
+    </div>
+</div>

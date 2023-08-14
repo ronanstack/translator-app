@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Future Improvements
 1. Chinese is currently not implemented due to issues with the NLP API giving different field names for each language and Chinese being split into zh-CN and zh-TW
 2. A more fleshed out and colorful appearance could make the translator more visually appealing
+3. Due to the NLP API giving the translated text data with different field names for each language, there are pieces of code repeated several times for each
+   language which looks messy. Perhaps a different API would allow for cleaner code. 
 
 ## Development server
 

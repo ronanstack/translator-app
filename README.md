@@ -1,5 +1,5 @@
 # Translator-app
-A translator made using the NLP Translation API for text translation between several languages. You must have a RapidAPI Authentication Key in order to use the NLP Translation API. 
+A translator made using the NLP Translation API for text translation between several languages. You must have a RapidAPI Authentication Key (inserted at translator.service.ts) in order to use the NLP Translation API. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 

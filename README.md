@@ -1,6 +1,11 @@
-# WebApp10
+# Translator-app
+A translator made using the NLP Translation API for text translation between several languages. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+
+# Future Improvements
+1. Chinese is currently not implemented due to issues with the NLP API giving different field names for each language and Chinese being split into zh-CN and zh-TW
+2. A more fleshed out and colorful appearance could make the translator more visually appealing
 
 ## Development server
 
